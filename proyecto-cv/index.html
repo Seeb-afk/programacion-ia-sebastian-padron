@@ -1,98 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sebastian Padron Curriculo Vitae</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--Cabezera-->
     <header>
-        <img src="./yo.png" alt="Sebastian Padron" width="150">
-        <h1>Sebastian Padron</h1>
-        <p>Zulia, Venezuela</p>
+      <img src="./yo.png" alt="Sebastian Padron" width="150" />
+      <h1>Sebastian Padron</h1>
+      <p>Zulia, Venezuela</p>
 
-        <nav>
-            <a href="#formation">Formación</a>
-            <a href="#experiencia">Experiencia laboral</a>
-            <a href="#contact_me">Contactame</a>
-        </nav><br>
+      <nav>
+        <a href="#formation">Formación</a>
+        <a href="#experiencia">Experiencia laboral</a>
+        <a href="#contact_me">Contactame</a>
+      </nav>
+      <br />
     </header>
     <main>
-        <section>
-            <h2 id="formation">Formación académica</h2>
-            
-            <div>
-                <h4>Bachiller en ciencias</h4>
-                <p>U.E. Colegio la epifanía</p>
-                <p>2004 - 2018</p>
-            </div><br>
+      <!--Formación académica-->
+      <section>
+        <h2 id="formation">Formación académica</h2>
 
-            <div>
-                <h4>Contador Publico (En curso)</h4>
-                <p>Universidad del Zulia</p>
-                <p>2024 - Actualidad</p>
-            </div><br>
-        </section>
-        
-        <section>
-            <h2 id="experiencia">Experiencia laboral</h2>
+        <div>
+          <h4>Bachiller en ciencias</h4>
+          <p>U.E. Colegio la epifanía</p>
+          <p>2004 - 2018</p>
+        </div>
+        <br />
 
-            <div>
-                <h4>Auxiliar de Almacen</h4>
-                <p>Farmacia Casa SAAS</p>
-                <p>Octubre de 2020 - Abril de 2023</p>
-                <p>Gestion de facturas, reclamos, ingreso de mercancia al sistema</p>
-            </div>
+        <div>
+          <h4>Contador Publico (En curso)</h4>
+          <p>Universidad del Zulia</p>
+          <p>2024 - Actualidad</p>
+        </div>
+        <br />
+      </section>
 
-            <div>
-                <h4>Operador Integral</h4>
-                <p>Papa Helados</p>
-                <p>Enero de 2024 - Enero 2026</p>
-                <p>Atencion al público</p>
-            </div><br>
-        </section>
+      <!--Experiencia laboral-->
+      <section>
+        <h2 id="experiencia">Experiencia laboral</h2>
+
+        <div>
+          <h4>Auxiliar de Almacen</h4>
+          <p>Farmacia Casa SAAS</p>
+          <p>Octubre de 2020 - Abril de 2023</p>
+          <p>Gestion de facturas, reclamos, ingreso de mercancia al sistema</p>
+        </div>
+
+        <div>
+          <h4>Operador Integral</h4>
+          <p>Papa Helados</p>
+          <p>Enero de 2024 - Enero 2026</p>
+          <p>Atencion al público</p>
+        </div>
+        <br />
+      </section>
     </main>
     <aside>
-        <div>
-            <h4>Informacion de contacto</h4>
-            <p>Direccion: xxx</p>
-            <p>Número de teléfono: +584145555555</p>
-            <p>Correo: ejemplo@gmail.com</p>
-        </div>
+      <!--Información de contacto-->
+      <div>
+        <h4>Informacion de contacto</h4>
+        <p>Direccion: xxx</p>
+        <p>Número de teléfono: +584145555555</p>
+        <p>Correo: ejemplo@gmail.com</p>
+      </div>
 
-        <div>
-            <h4>Idiomas</h4>
-            <ul>
-                <li>Español</li>
-                <li>Ingles</li>
-            </ul>
-        </div><br>
-
-        <div>
-            <h4>Habilidades</h4>
-            <ul>
-                <li>Excel</li>
-                <li>Contabilidad</li>
-            </ul>
-        </div>
+      <!--Idiomas-->
+      <div>
+        <h4>Idiomas</h4>
+        <ul>
+          <li>Español</li>
+          <li>Ingles</li>
+        </ul>
+      </div>
+      <br />
+      <!--Habilidades-->
+      <div>
+        <h4>Habilidades</h4>
+        <ul>
+          <li>Excel</li>
+          <li>Contabilidad</li>
+        </ul>
+      </div>
     </aside>
+    <!--Pie de pagina-->
     <footer>
-        <h3 id="contact_me">Contactame</h3>
-        
-        <form action="">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name"><br><br>
+      <h3 id="contact_me">Contactame</h3>
 
-            <label for="email">Correo:</label>
-            <input type="email" id="email" name="email"><br><br>
+      <form action="">
+        <label for="name">Nombre:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nombre"
+        /><br /><br />
 
-            <label for="message">Mensaje:</label>
-            <input type="text" id="message" name="message"><br><br>
+        <label for="email">Correo:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+        /><br /><br />
 
-            <input type="submit" value="Enviar">
-        </form>
+        <label for="message">Mensaje:</label>
+        <textarea name="message" id="message" rows="10"></textarea><br /><br />
 
-        <p>Copyright ©2026. Todos los derechos reservados</p>
+        <input type="submit" value="Enviar" />
+      </form>
+
+      <p>Copyright ©2026. Todos los derechos reservados</p>
     </footer>
-</body>
+  </body>
 </html>
